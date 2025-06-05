@@ -1,7 +1,7 @@
 body {
   background-color: #eaeaea;
   font-family: "Times New Roman", Times, serif;
-  color: #999;
+  color: #222; /* Changed to a much darker color for main text */
   padding: 0;
   top: 0 !important;
 }
@@ -16,11 +16,11 @@ body {
 .navbar-brand {
   font-size: 22px;
   letter-spacing: 1px;
-  color: #aaa;
+  color: #222; /* Darker brand text */
 }
 
 .nav-link {
-  color: #aaa !important;
+  color: #222 !important; /* Darker nav links */
   font-size: 14px;
   letter-spacing: 1px;
   margin: 0 10px;
@@ -29,7 +29,7 @@ body {
 
 .nav-link:hover,
 .nav-link.active {
-  color: #ccc !important;
+  color: #444 !important; /* Slightly lighter on hover/active */
 }
 
 /* Testimonials Section */
@@ -41,7 +41,7 @@ body {
 .testimonials-section h2 {
   font-size: 28px;
   letter-spacing: 1px;
-  color: #b0b0b0;
+  color: #111; /* Even darker heading */
 }
 
 .testimonial-card {
@@ -59,7 +59,7 @@ body {
   background-color: rgba(240, 240, 240, 0.9);
   font-size: 14px;
   font-weight: bold;
-  color: #999;
+  color: #333; /* Darker number */
   border-radius: 0 0 5px 0;
 }
 
@@ -84,7 +84,7 @@ body {
 
 .testimonial-2 .quote-icon {
   font-size: 36px;
-  color: #ddd;
+  color: #888; /* Darker quote icon */
 }
 
 /* Testimonial 3 */
@@ -111,19 +111,19 @@ body {
   margin-bottom: 15px;
   font-size: 15px;
   line-height: 1.5;
-  color: #aaaaaa;
+  color: #222; /* Darkest testimonial text */
 }
 
 .testimonial-author {
   font-weight: 600;
   margin-bottom: 2px;
   font-size: 14px;
-  color: #999;
+  color: #111; /* Darkest author text */
 }
 
 .testimonial-location {
   font-size: 12px;
-  color: #aaa;
+  color: #333; /* Darker location text */
   margin-bottom: 0;
 }
 
@@ -140,13 +140,13 @@ body {
   letter-spacing: 1px;
   margin-bottom: 10px;
   text-transform: uppercase;
-  color: #777;
+  color: #333; /* Darker small heading */
   font-weight: normal;
 }
 
 .radio-text {
   font-size: 14px;
-  color: #999;
+  color: #222; /* Darker radio text */
   margin-left: 5px;
 }
 
@@ -154,26 +154,28 @@ body {
 .form-control {
   border: none;
   border-radius: 0;
-  border-bottom: 1px solid #ccc;
+  border-bottom: 1px solid #888; /* Darker border */
   padding: 10px 0;
   background-color: transparent;
   box-shadow: none;
   font-size: 16px;
+  color: #222; /* Darker input text */
 }
 
 .form-control:focus {
   box-shadow: none;
-  border-color: #888;
+  border-color: #222; /* Darker focus border */
   background-color: inherit;
 }
 
 .form-select {
   border: none;
   border-radius: 0;
-  border-bottom: 1px solid #ccc;
+  border-bottom: 1px solid #888; /* Darker border */
   padding: 10px 0;
   background-color: transparent;
   font-size: 16px;
+  color: #222; /* Darker select text */
 }
 
 textarea.form-control {
@@ -195,15 +197,15 @@ textarea.form-control {
   letter-spacing: 1px;
   text-transform: uppercase;
   font-size: 14px;
-  color: #b0b0b0;
-  border-color: #d0d0d0;
+  color: #222; /* Darker button text */
+  border-color: #444; /* Darker border */
 }
 
 /* Form validation styles */
 .error-message {
   display: none;
   font-size: 12px;
-  color: #c0a0a0;
+  color: #a00; /* Darker error message */
   margin-top: 5px;
   font-style: italic;
   font-weight: 500;
@@ -211,12 +213,12 @@ textarea.form-control {
 
 .form-control.error,
 .form-select.error {
-  border-bottom: 1px solid #c0a0a0;
+  border-bottom: 1px solid #a00; /* Darker error border */
 }
 
 .radio-options.error {
   padding-bottom: 5px;
-  border-bottom: 1px solid #c0a0a0;
+  border-bottom: 1px solid #a00; /* Darker error border */
 }
 
 /* Google Translate Widget styles */
@@ -234,14 +236,14 @@ textarea.form-control {
 .goog-te-gadget {
   font-family: "Times New Roman", Times, serif !important;
   font-size: 14px !important;
-  color: #999 !important;
+  color: #222 !important; /* Darker Google Translate text */
 }
 
 .goog-te-gadget .goog-te-combo {
   padding: 5px;
-  border: 1px solid #ddd;
+  border: 1px solid #888; /* Darker border */
   border-radius: 3px;
-  color: #666;
+  color: #222; /* Darker combo text */
 }
 
 .goog-logo-link {
@@ -255,4 +257,5 @@ textarea.form-control {
 .footer {
   background-color: #f9f9f9;
   border-top: 1px solid rgba(0, 0, 0, 0.1);
+  color: #222; /* Darker footer text */
 }
